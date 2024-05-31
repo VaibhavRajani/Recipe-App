@@ -18,7 +18,7 @@ The Recipe App is a native iOS application designed to allow users to browse thr
   - **MealViewModel.swift**: Provides a bridge between the views and the service layer, managing the state of the UI elements and the data from API responses. It also handles error presentation using SwiftUI's alert mechanisms.
 
 - **Views**
-  - **MealsListView.swift** and **MealDetailView.swift**: SwiftUI views that present the list of meals and the detailed information of a selected B>meal, respectively.
+  - **MealsListView.swift** and **MealDetailView.swift**: SwiftUI views that present the list of meals and the detailed information of the selected meal, respectively.
 
 - **Models**
   - **Meal.swift** and **MealDetails.swift**: Define the structure of the API data related to meals. MealDetails includes dynamic decoding to handle ingredients and measurements, filtering out any null or empty values in line with project guidelines.
