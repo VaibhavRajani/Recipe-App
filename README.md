@@ -1,4 +1,4 @@
-# Recipe App README
+# Recipe App
 
 ## Project Overview
 
